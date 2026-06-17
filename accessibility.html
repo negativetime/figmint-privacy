@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Figmint — Accessibility</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 17px/1.6 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; color: #1c1c1e; }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #e8e8ea; } a { color: #6ca0ff; } }
+  h1 { font-size: 30px; margin-bottom: 4px; }
+  h2 { font-size: 21px; margin-top: 34px; }
+  .updated { color: #8a8a8e; margin-top: 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+  <h1>Figmint — Accessibility</h1>
+  <p class="updated">Figmint is built to work for everyone. Accessibility isn't an afterthought —
+  it's tested as part of every release. Updated June 17, 2026.</p>
+
+  <h2>What Figmint supports</h2>
+  <ul>
+    <li><strong>VoiceOver.</strong> Every control is labelled and operable with VoiceOver, including
+    custom ones — the color wheel is an adjustable control you can swipe to change, and idea cards,
+    web nodes, and tools expose actions (connect, recolor, move, open) through the rotor.</li>
+    <li><strong>Dynamic Type.</strong> Text scales with your preferred reading size, all the way up
+    to the largest accessibility sizes, without clipping.</li>
+    <li><strong>Legible color.</strong> Text on Figmint's colored cards, tags, and badges meets the
+    WCAG AA contrast ratio (4.5:1) across the whole color wheel — verified automatically on every build.</li>
+    <li><strong>Differentiate Without Color.</strong> Anything shown with color is also marked another
+    way (a checkmark, a border, or an icon), so meaning never depends on color alone.</li>
+    <li><strong>Increase Contrast.</strong> Cards gain a defined edge so they stay distinct.</li>
+    <li><strong>Reduce Transparency.</strong> Translucent surfaces become solid for easier reading.</li>
+    <li><strong>Reduce Motion.</strong> Animations are minimized or removed when this is on.</li>
+    <li><strong>Dark Interface.</strong> Figmint follows your light or dark appearance system-wide.</li>
+    <li><strong>Larger touch targets.</strong> Buttons and controls meet the 44×44 pt minimum.</li>
+    <li><strong>Nine languages.</strong> The interface is fully localized in English, Spanish, French,
+    German, Italian, Portuguese (Brazil), Japanese, Korean, Simplified Chinese, and Russian.</li>
+    <li><strong>Private by design.</strong> Everything — including the on-device AI — runs locally on
+    your device, so using Figmint never requires being online or sharing your ideas.</li>
+  </ul>
+
+  <h2>Found a barrier?</h2>
+  <p>If any part of Figmint is hard to use with an assistive feature you rely on, please tell me —
+  I treat accessibility issues as bugs and fix them. Email
+  <a href="mailto:joshlangberg@gmail.com">joshlangberg@gmail.com</a> and I'll respond.</p>
+</body>
+</html>
